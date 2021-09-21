@@ -1,0 +1,33 @@
+
+:root {
+    --color-primario: #8377d1;
+    --color-secundario: #f7dba7;
+    --negro: #2c363f;
+    --blanco: #fafafa;
+    --separacion-defecto: 8px;
+}
+*{
+    background-color: #fafafa;
+    color: car(--negro);
+    padding: 0;
+    margin: 0;
+}
+footer{
+    margin-top: cal(4*var(--separacion-defecto));
+}
+
+header *, footer *{
+    background-color: #8377d1;
+    color: var(--blanco);
+    font-size: 1,5rem;
+    padding: 2rem;
+}
+
+.contenedor{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table.paper{
+    width: 100%;
+}
